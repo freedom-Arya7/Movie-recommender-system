@@ -1,0 +1,232 @@
+pkg list
+A = [3,4;2,16]
+Inv_A = pinv<A>
+pinv(A)
+first
+first
+first
+first
+first
+first
+first
+first
+# Octave 5.1.0, Sat Jan 18 22:21:49 2020 GMT <unknown@Arya-hpLaptop2019>
+first
+first
+# Octave 5.1.0, Sat Jan 18 23:08:01 2020 GMT <unknown@Arya-hpLaptop2019>
+citation
+citation package
+citation
+# Octave 5.1.0, Tue Jan 28 16:06:01 2020 GMT <unknown@Arya-hpLaptop2019>
+citation()
+citation 
+# Octave 5.1.0, Tue Jan 28 16:10:12 2020 GMT <unknown@Arya-hpLaptop2019>
+A = [1,2;5,9]
+A_Transpose = A'
+adj_A = adj(A)
+inv_A = inv(A)
+# Octave 5.1.0, Tue Jan 28 16:25:20 2020 GMT <unknown@Arya-hpLaptop2019>
+citaion
+citation
+octave:13>
+octave:13
+citation
+exit
+# Octave 5.1.0, Tue Jan 28 16:45:26 2020 GMT <unknown@Arya-hpLaptop2019>
+octave:1> exp(i*pi)
+exp (i*pi)
+A = [1 2; 3 4]
+B = [2 5;8 9];
+C = B + [4 7;1 2]
+# Octave 5.1.0, Tue Jan 28 16:58:37 2020 GMT <unknown@Arya-hpLaptop2019>
+A = rand(3,4);
+a
+A
+# Octave 5.1.0, Tue Jan 28 18:18:36 2020 GMT <unknown@Arya-hpLaptop2019>
+A = [1,2;1,2];
+b = [3;4];
+X = A\b
+# Octave 5.1.0, Sat Feb 01 13:50:43 2020 GMT <unknown@Arya-hpLaptop2019>
+function xdot = f(x,t)
+r=0.25;
+k=1.4;
+a=1.5;
+b=0.16;
+c=.9;
+d=0.8;
+xdot(1)=r*x(1)*(1-x(1)/k)-a*x(1)*x(2)/(1+b*x(1));
+xdot(2)=c*a*x(1)*x(2)/(1+b*x(1))-d*x(2);
+endfunction
+x = [1,2];
+t = linspace(0,50,200)';
+x=lsode("f",x0,t);
+x0= [1,2];
+x=lsode("f",x0,t);
+x
+# Octave 5.1.0, Sat Feb 01 14:11:01 2020 GMT <unknown@Arya-hpLaptop2019>
+plot(t,x);
+GNU Octave, version 5.1.0
+Copyright (C) 2019 John W. Eaton and others.
+This is free software; see the source code for copying conditions.
+There is ABSOLUTELY NO WARRANTY; not even for MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  For details, type 'warranty'.
+Octave was configured for "x86_64-w64-mingw32".
+Additional information about Octave is available at https://www.octave.org.
+Please contribute if you find this software useful.
+For more information, visit https://www.octave.org/get-involved.html
+Read https://www.octave.org/bugs.html to learn how to submit bug reports.
+For information about changes from previous versions, type 'news'.
+>> function xdot = f(x,t)
+r=0.25;
+k=1.4;
+a=1.5;
+b=0.16;
+c=.9;
+d=0.8;
+xdot(1)=r*x(1)*(1-x(1)/k)-a*x(1)*x(2)/(1+b*x(1));
+xdot(2)=c*a*x(1)*x(2)/(1+b*x(1))-d*x(2);
+endfunction
+>> x = [1,2];
+>> t = linspace(0,50,200)';
+>> x=lsode("f",x0,t);
+# Octave 5.1.0, Sat Feb 01 14:11:59 2020 GMT <unknown@Arya-hpLaptop2019>
+help --list
+# Octave 5.1.0, Tue Feb 04 18:33:48 2020 GMT <unknown@Arya-hpLaptop2019>
+help info
+info
+# Octave 5.1.0, Wed Feb 05 11:19:30 2020 GMT <unknown@Arya-hpLaptop2019>
+A = [7 8;9 5];
+A = [7 8 0;9 3 5];
+B = [1 2 3;4 5 6];
+# Octave 5.1.0, Wed Feb 05 11:19:30 2020 GMT <unknown@Arya-hpLaptop2019>
+A = [7 8 0;9 3 5];
+# Octave 5.1.0, Wed Feb 05 11:19:30 2020 GMT <unknown@Arya-hpLaptop2019>
+B = [1 2 3;4 5 6];
+A = [7 8 0;9 3 5];
+# Octave 5.1.0, Wed Feb 05 11:50:36 2020 GMT <unknown@Arya-hpLaptop2019>
+A = [2 3 4 5;3 5 6 4]
+A = [2 3 4 5 9;3 5 6 4 0]
+A = [2 3 4 5 9;3 5 6 4 0;7 4 9 2]
+A = [2 3 4 5 9;3 5 6 4 0;7 6 4 9 2]
+exit
+# Octave 4.4.1, Thu Feb 06 00:28:22 2020 GMT <unknown@Arya-hpLaptop2019>
+exit
+# Octave 4.4.1, Thu Feb 06 00:49:32 2020 GMT <unknown@Arya-hpLaptop2019>
+# Octave 5.1.0, Sat Feb 08 04:19:36 2020 GMT <unknown@Arya-hpLaptop2019>
+# Octave 5.1.0, Wed Aug 05 17:05:18 2020 GMT <unknown@Arya-hpLaptop2019>
+exit
+# Octave 4.4.1, Sun Feb 28 17:13:32 2021 GMT <unknown@Arya-hpLaptop2019>
+exit
+# Octave 4.4.1, Mon Apr 19 07:37:03 2021 GMT <unknown@Arya-hpLaptop2019>
+warmUpExercise
+warmUpExercise
+plotData
+plotData
+plotData
+plotData
+plotData
+plotdata
+plotData
+plotData
+plotData
+plotData
+plotData
+plotData
+plotData
+plotData
+computeCost
+computeCost
+computeCost
+computeCost
+computeCost
+computeCost
+computeCost
+6*5
+computeCost
+computeCost
+computeCost
+computeCost
+computeCost
+computeCost
+computeCost
+computeCost
+computeCost
+computeCost
+computeCost
+computeCost
+computeCost
+gradientDescent
+ex1
+ex1
+ex1
+exit
+# Octave 4.4.1, Tue Apr 20 23:50:22 2021 GMT <unknown@Arya-hpLaptop2019>
+exit
+# Octave 4.4.1, Mon May 17 10:01:00 2021 GMT <unknown@Arya-hpLaptop2019>
+ex2
+ex2
+ex2_reg
+costFunctionReg
+ex2_reg
+ex2_reg
+ex2_reg
+ex2_reg
+ex2_reg
+ex2_reg
+ex2_reg
+ex2_reg
+ex2_reg
+ex2_reg
+ex3
+ex3
+ex3
+predict
+predict
+ex3
+ex4
+ex4
+ex4
+ex4
+ex5
+exit
+# Octave 4.4.1, Mon May 17 14:35:44 2021 GMT <unknown@Arya-hpLaptop2019>
+exit
+# Octave 4.4.1, Sat Aug 21 01:17:48 2021 GMT <unknown@Arya-hpLaptop2019>
+ex6
+help plot
+help find
+ex6
+ex6
+ex6
+ex6.m
+ex6
+ex6
+submit
+submit.m
+submit.m
+ex6
+ex6
+t
+submit
+submit.m
+submit.m
+submit.m
+ex6
+submit
+exit
+# Octave 4.4.1, Thu Sep 02 21:19:31 2021 GMT <unknown@Arya-hpLaptop2019>
+ex7
+ex7_pca
+submit.m
+exit
+# Octave 4.4.1, Tue Sep 07 23:20:40 2021 GMT <unknown@Arya-hpLaptop2019>
+submit
+submit
+submit
+exit
+# Octave 4.4.1, Sat Sep 11 15:24:06 2021 GMT <unknown@Arya-hpLaptop2019>
+submit
+submit
+submit
+exit
+# Octave 4.4.1, Sun Sep 12 12:09:07 2021 GMT <unknown@Arya-hpLaptop2019>
